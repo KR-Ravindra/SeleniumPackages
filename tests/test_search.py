@@ -1,8 +1,6 @@
-#import pytest
-import selenium.webdriver
-from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-import json
+import selenium.webdriver
+
 
 browser = selenium.webdriver.Firefox()
 browser.minimize_window()
