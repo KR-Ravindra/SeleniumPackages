@@ -5,15 +5,15 @@ import selenium.webdriver
 browser = selenium.webdriver.Firefox()
 browser.minimize_window()
 
-browser.get("https://www.youtube.com/")
+browser.get("https://www.youtube.com/watch?v=7o11CfS6uBI")
 browser.implicitly_wait(10)
 
-search = browser.find_element_by_xpath("//input[@id='search']")
-search.send_keys("LinkinPark hits")
-search.send_keys(Keys.ENTER)
+# search = browser.find_element_by_xpath("//input[@id='search']")
+# search.send_keys("LinkinPark hits")
+# search.send_keys(Keys.ENTER)
 
-play = browser.find_element_by_xpath("//span[@id='overlay-text']")
-play.click()
+# play = browser.find_element_by_xpath("//span[@id='overlay-text']")
+# play.click()
 
 
 t = 1
