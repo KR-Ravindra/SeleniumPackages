@@ -5,7 +5,8 @@ import selenium.webdriver
 browser = selenium.webdriver.Firefox()
 browser.minimize_window()
 
-browser.get("https://www.youtube.com/watch?v=7o11CfS6uBI")
+browser.get(
+    "https://www.youtube.com/watch?v=2mDCVzruYzQ&list=RDCLAK5uy_lyVnWI5JnuwKJiuE-n1x-Un0mj9WlEyZw")
 browser.implicitly_wait(10)
 
 # search = browser.find_element_by_xpath("//input[@id='search']")
